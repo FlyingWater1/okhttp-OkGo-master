@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:3:5-46
+		INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml
+		INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:5:5-30
+		INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml
+		INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:4:5-29
+		INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml
+		INJECTED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml
+uses-sdk
+ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.VIBRATE
+ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:11:22-63
+application
+ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:12:5-17:19
+activity#com.google.zxing.ISBNActivity
+ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:13:9-15:76
+	android:windowSoftInputMode
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:15:13-73
+	android:name
+		ADDED from D:\smt\okhttp-OkGo-master\LibZxing\AndroidManifest.xml:14:13-57

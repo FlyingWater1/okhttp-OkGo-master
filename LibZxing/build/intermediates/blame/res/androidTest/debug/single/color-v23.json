@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\dd9fefd2b7855497b7a1af1430c716ee\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\smt\\okhttp-OkGo-master\\LibZxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\54330\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\0135a5418d650750aab5c7610b3f2aa9\\res\\color-v23\\abc_color_highlight_material.xml"
+    }
+]
