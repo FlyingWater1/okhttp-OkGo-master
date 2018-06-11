@@ -1,0 +1,110 @@
+package com.lzy.demo.adapter;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import com.lzy.demo.R;
+import com.lzy.demo.model.material_management.SMTMaterial;
+
+import java.util.List;
+
+/**
+ * Created by 54330 on 2018/3/29.
+ */
+
+public class TraceabilityAdapter extends BaseAdapter {
+
+    List<SMTMaterial> smtMaterialList;
+    private int selectItem = 0;
+    Context context;
+
+    public TraceabilityAdapter(List<SMTMaterial> smtMaterialList, Context context) {
+        this.smtMaterialList = smtMaterialList;
+        this.context = context;
+    }
+
+    public int getSelectItem() {
+        return selectItem;
+    }
+
+    public void setSelectItem(int selectItem) {
+        this.selectItem = selectItem;
+    }
+
+    @Override
+    public int getCount() {
+        return smtMaterialList.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return smtMaterialList.size();
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHold viewHold = null;
+        if (convertView == null) {
+            convertView = View.inflate(context, R.layout.smt_menu_item, null);
+            viewHold = new ViewHold();
+            viewHold.item_name = (TextView) convertView.findViewById(R.id.item_name);
+            convertView.setTag(viewHold);
+        } else {
+            viewHold = (ViewHold) convertView.getTag();
+        }
+
+        if (position == selectItem) {
+            viewHold.item_name.setBackgroundColor(Color.WHITE);
+            viewHold.item_name.setTextColor(context.getResources().getColor(R.color.green_400));
+        } else {
+            viewHold.item_name.setBackgroundColor(context.getResources().getColor(R.color.background));
+            viewHold.item_name.setTextColor(context.getResources().getColor(R.color.black));
+        }
+        viewHold.item_name.setText(smtMaterialList.get(position).getSN());
+//        switch (childsBeanXX.getDname()){
+//            case "基本数据管理":
+//                viewHold.item_name.setText(R.string.basic_data_management);
+//                break;
+//            case "生产计划管理":
+//                viewHold.item_name.setText(R.string.production_planning_management);
+//                break;
+//            case "产品属性配置":
+//                viewHold.item_name.setText(R.string.Product_attribute_configuration);
+//                break;
+//            case "数据综合查询":
+//                viewHold.item_name.setText(R.string.Data_integrated_query);
+//                break;
+//            case "数据综合分析":
+//                viewHold.item_name.setText(R.string.data_comprehensive_analysis);
+//                break;
+//            case "质量业务管理":
+//                viewHold.item_name.setText(R.string.Quality_business_management);
+//                break;
+//            case "号码资源管理":
+//                viewHold.item_name.setText(R.string.Number_resource_management);
+//                break;
+//            case "维修管理":
+//                viewHold.item_name.setText(R.string.maintenance_management);
+//                break;
+//            case "个人设置":
+//                viewHold.item_name.setText(R.string.personal_setting);
+//                break;
+//        }
+
+
+
+        return convertView;
+    }
+    private static class ViewHold {
+        private TextView item_name;
+    }
+}

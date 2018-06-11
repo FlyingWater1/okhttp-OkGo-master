@@ -1,0 +1,78 @@
+<!--
+    Copyright 2016 jeasonlzy(廖子尧)
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+       http://www.apache.org/licenses/LICENSE-2.0
+       
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="app_name">贴片</string>
+
+    <string name="simple_view_behavior">com.lzy.demo.ui.SimpleViewBehavior</string>
+    <string name="translate_up_down_behavior">com.lzy.demo.ui.TranslateUpDownBehavior</string>
+    <string name="login_success">登录成功</string>
+    <string name="login">登录</string>
+    <string name="Username">用户名</string>
+    <string name="Password">密码</string>
+    <string name="forgot_your_password">忘记密码?</string>
+    <string name="go">登录</string>
+    <string name="repeat_password">重复密码</string>
+    <string name="next">下一步</string>
+    <string name="register">注册</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="change_theme_key">更改主题</string>
+
+    <string name="setting">设置</string>
+
+    <string name="Password_change">修改密码</string>
+
+
+    <string name="basic_data_management">基本数据管理</string>
+    <string name="production_planning_management">生产计划管理</string>
+    <string name="Product_attribute_configuration">产品属性配置</string>
+    <string name="Data_integrated_query">数据综合查询</string>
+    <string name="data_comprehensive_analysis">数据综合分析</string>
+    <string name="Quality_business_management">质量业务管理</string>
+    <string name="Number_resource_management">号码资源管理</string>
+    <string name="maintenance_management">维修管理</string>
+    <string name="personal_setting">个人设置</string>
+
+    <!--<string name="factory">工厂</string>-->
+    <!--<string name="platform">平台</string>-->
+    <!--<string name="process">工艺</string>-->
+    <!--<string name="test">测试</string>-->
+    <!--<string name="SN_section_application_management">SN号段申请管理</string>-->
+    <!--<string name="Attribute_basic_information">属性基本信息</string>-->
+    <!--<string name="Product_attribute_information_management">产品属性信息管理</string>-->
+    <!--<string name="Product_number_type_management">产品号码类型管理</string>-->
+    <!--<string name="Production_record_query">生产记录查询</string>-->
+    <!--<string name="Package_data_query">包装数据查询</string>-->
+    <!--<string name="Test_data_query">测试数据查询</string>-->
+    <!--<string name="Maintenance_data_analysis">维修数据分析</string>-->
+    <!--<string name="Production_status_analysis">生产状况分析</string>-->
+    <!--<string name="Production_report">生产报表</string>-->
+    <!--<string name="Electronic_kanban_management">电子看板管理</string>-->
+    <!--<string name="Quality_business_enquiries">质量业务查询</string>-->
+    <!--<string name="Number_to_release">号码释放</string>-->
+    <!--<string name="PCBA_maintenance_management">PCBA维修管理</string>-->
+    <!--<string name="Complete_machine_maintenance_management">整机维修管理</string>-->
+    <!--<string name="Password_change">密码修改</string>-->
+
+    <!--<string name="magicasrkura_prompt_0">PINK</string>-->
+    <!--<string name="magicasrkura_prompt_1">PURPLE</string>-->
+    <!--<string name="magicasrkura_prompt_2">BLUE</string>-->
+    <!--<string name="magicasrkura_prompt_3">GREEN</string>-->
+    <!--<string name="magicasrkura_prompt_4">GREEN LIGHT</string>-->
+    <!--<string name="magicasrkura_prompt_5">YELLOW</string>-->
+    <!--<string name="magicasrkura_prompt_6">ORANGE</string>-->
+    <!--<string name="magicasrkura_prompt_7">RED</string>-->
+</resources>

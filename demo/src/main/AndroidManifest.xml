@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lzy.demo">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.huawei.android.launcher2.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.huawei.android.launcher3.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".GApp"
+        android:allowBackup="true"
+        android:icon="@drawable/sms_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme"
+        tools:replace="android:icon,android:theme">
+
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+        <activity
+            android:name=".ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Translucent" />
+        <activity
+            android:name=".LoginsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".okgo.MethodActivity" />
+        <activity android:name=".okgo.JsonActivity" />
+        <activity android:name=".okgo.BitmapRequestActivity" />
+        <activity android:name=".okgo.UpActivity" />
+        <activity android:name=".okgo.CookieActivity" />
+        <activity android:name=".okgo.FormUploadActivity" />
+        <activity android:name=".okgo.SimpleDownloadActivity" />
+        <activity android:name=".okgo.CacheActivity" />
+        <activity android:name=".okgo.HttpsActivity" />
+        <activity android:name=".okgo.SyncActivity" />
+        <activity android:name=".okgo.RedirectActivity" />
+        <activity android:name=".okgo.TestActivity" />
+        <activity
+            android:name=".supercache.SuperCacheActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okgo.CommonActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okdownload.DownloadAllActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okdownload.DownloadingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okdownload.DownloadFinishActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okdownload.DesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okdownload.DownloadListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okupload.UploadListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okupload.UploadAllActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okupload.UploadFinishActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okupload.UploadingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- Rx相关 -->
+        <activity android:name=".okrx2.RxCommonActivity" />
+        <activity android:name=".okrx2.RxCacheActivity" />
+        <activity android:name=".okrx2.RxRetrofitActivity" />
+        <activity android:name=".okrx2.RxBitmapActivity" />
+        <activity android:name=".okrx2.RxFileDownloadActivity" />
+        <activity android:name=".okrx2.RxFormUploadActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity
+            android:name=".ScanResultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- 条形码扫描 -->
+        <!-- <activity -->
+        <!-- android:name="com.google.zxing.client.android.CaptureActivity2" -->
+        <!-- android:configChanges="orientation|keyboardHidden" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- android:windowSoftInputMode="stateAlwaysHidden"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.zxing.client.android.SCAN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- </intent-filter> -->
+        <!-- &lt;!&ndash; -->
+        <!-- Allow web apps to launch Barcode Scanner by linking to -->
+        <!-- http://zxing.appspot.com/scan. -->
+        <!-- &ndash;&gt; -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- <data -->
+        <!-- android:host="zxing.appspot.com" -->
+        <!-- android:path="/scan" -->
+        <!-- android:scheme="http" /> -->
+        <!-- </intent-filter> -->
+        <!-- &lt;!&ndash; We also support a Google Product Search URL. &ndash;&gt; -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- <data -->
+        <!-- android:host="www.google.com" -->
+        <!-- android:path="/m/products/scan" -->
+        <!-- android:scheme="http" /> -->
+        <!-- </intent-filter> -->
+        <!-- &lt;!&ndash; And the UK version. &ndash;&gt; -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- <data -->
+        <!-- android:host="www.google.co.uk" -->
+        <!-- android:path="/m/products/scan" -->
+        <!-- android:scheme="http" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".TestActivity" />
+        <activity android:name=".CategorysActivity" />
+        <activity
+            android:name=".SmtMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.RackActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.ActivityCobweb" />
+        <activity android:name=".ui.ActivityLogin" />
+        <activity android:name=".ui.WebViewActivity" />
+        <activity android:name=".ui.ImsActivity" />
+        <activity android:name=".ui.BoardActivity" />
+        <activity
+            android:name=".ui.BoardProductionSchedulingActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ui.MaterialManagementActivity" />
+        <activity android:name=".ui.ResolutionActivity" />
+        <activity android:name=".ui.ProductionMaterialReturnActivity" />
+        <activity android:name=".ui.ReelIDQueryActivity" />
+        <activity android:name=".ui.WcfActivity" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.WeatherActivity" />
+        <activity android:name=".ui.CityActivity" />
+        <activity android:name=".ui.Inventory_managementActivity" />
+        <activity android:name=".ui.material_management.WarehouseActivity" />
+        <activity android:name=".ui.material_management.Material_threeActivity" />
+        <activity android:name=".ui.material_management.Store_bindActivity" />
+        <activity android:name=".ui.material_management.Material_scrapActivity" />
+        <activity android:name=".ui.material_management.Store_adjustmentActivity" />
+        <activity android:name=".ui.material_management.Warehouse_allottingActivity" />
+        <activity android:name=".ui.material_query.Material_queryActivity" />
+        <activity android:name=".ui.material_query.MaterialConnectingPlateActivity" />
+        <activity android:name=".ui.material_query.MaterialProductiveProcessActivity" />
+        <activity android:name=".ui.material_query.Material_traceability_enquiryActivity"></activity>
+        <activity android:name=".ui.material_query.MaterialWriteNoActivity"></activity>
+        <activity android:name=".ui.material_query.MaterialSnStatusActivity"></activity>
+    </application>
+
+</manifest>

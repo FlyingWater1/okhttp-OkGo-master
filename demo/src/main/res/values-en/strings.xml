@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smt</string>
+    <string name="simple_view_behavior">com.lzy.demo.ui.SimpleViewBehavior</string>
+    <string name="translate_up_down_behavior">com.lzy.demo.ui.TranslateUpDownBehavior</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+    <!--<string name="soldre_tin">Soldre Tin</string>-->
+    <string name="cancel">cancel</string>
+    <string name="confirm">ok</string>
+    <string name="change_theme_key">change_theme_key</string>
+    <string name="setting">Setting</string>
+
+    <string name="basic_data_management">BDM</string>
+    <string name="production_planning_management">WGKS</string>
+    <string name="Product_attribute_configuration">PAC</string>
+    <string name="Data_integrated_query">DIQ</string>
+    <string name="data_comprehensive_analysis">DCA</string>
+    <string name="Quality_business_management">QBM</string>
+    <string name="Number_resource_management">NRM</string>
+    <string name="maintenance_management">CMMS</string>
+    <string name="personal_setting">USER</string>
+
+    <!--<string name="factory">factory</string>-->
+    <!--<string name="platform">platform</string>-->
+    <!--<string name="process">process</string>-->
+    <!--<string name="test">test</string>-->
+    <!--<string name="SN_section_application_management">SN section application management</string>-->
+    <!--<string name="Attribute_basic_information">Attribute basic information</string>-->
+    <!--<string name="Product_attribute_information_management">Product attribute information management</string>-->
+    <!--<string name="Product_number_type_management">Product number type management</string>-->
+    <!--<string name="Production_record_query">Production record query</string>-->
+    <!--<string name="Package_data_query">Package data query</string>-->
+    <!--<string name="Test_data_query">Test data query</string>-->
+    <!--<string name="Maintenance_data_analysis">Maintenance data analysis</string>-->
+    <!--<string name="Production_status_analysis">Production status analysis</string>-->
+    <!--<string name="Production_report">Production report</string>-->
+    <!--<string name="Electronic_kanban_management">Electronic kanban management</string>-->
+    <!--<string name="Quality_business_enquiries">Quality business enquiries</string>-->
+    <!--<string name="Number_to_release">Number to release</string>-->
+    <!--<string name="PCBA_maintenance_management">PCBA maintenance management</string>-->
+    <!--<string name="Complete_machine_maintenance_management">Complete machine maintenance management</string>-->
+    <string name="Password_change">Password change</string>
+</resources>
